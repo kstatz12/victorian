@@ -13,6 +13,6 @@ start_link()->
 
 %% Supervisor Callbacks
 init([]) ->
-    ok.
+    {ok, { {one_for_all, 0, 1}, []}}.
     
  
